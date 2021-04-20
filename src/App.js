@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Box, Button } from '@material-ui/core'
+import './index.css'
+import TotalConfirmedCases from './TotalConfirmedCases'
+import TotalVaccinated from './TotalVaccinated'
+import CasesTimeSeries from './CasesTimeSeries'
+import { Switch, Route } from 'react-router-dom'
+import Menu from './Menu'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="backgroundColor">
+        <h1 > Corona Virus Cases in India</h1>
+      </div>
+      <Switch>
+        <Route exact path="/" component = {Menu} style = {{text : 'center'}}/>
+        <Route exact path="/TotalConfirmedCases" component = {TotalConfirmedCases} />
+        <Route exact path="/TotalVaccinated" component = {TotalVaccinated} />
+        <Route exact path="/CasesTimeSeries" component = {CasesTimeSeries} />
+      </Switch>
+
+      <div className="backgroundColor" style = {{marginBottom : "0px"}}>
+        <h1 > Stay Safe </h1>
+      </div>
+    </>
   );
 }
 
