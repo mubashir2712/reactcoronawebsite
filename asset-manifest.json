@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/reactcoronawebsite/static/css/main.3571d98e.chunk.css",
+    "main.js": "/reactcoronawebsite/static/js/main.5082cead.chunk.js",
+    "main.js.map": "/reactcoronawebsite/static/js/main.5082cead.chunk.js.map",
+    "runtime-main.js": "/reactcoronawebsite/static/js/runtime-main.31dc662e.js",
+    "runtime-main.js.map": "/reactcoronawebsite/static/js/runtime-main.31dc662e.js.map",
+    "static/js/2.551c8b39.chunk.js": "/reactcoronawebsite/static/js/2.551c8b39.chunk.js",
+    "static/js/2.551c8b39.chunk.js.map": "/reactcoronawebsite/static/js/2.551c8b39.chunk.js.map",
+    "index.html": "/reactcoronawebsite/index.html",
+    "static/css/main.3571d98e.chunk.css.map": "/reactcoronawebsite/static/css/main.3571d98e.chunk.css.map",
+    "static/js/2.551c8b39.chunk.js.LICENSE.txt": "/reactcoronawebsite/static/js/2.551c8b39.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31dc662e.js",
+    "static/js/2.551c8b39.chunk.js",
+    "static/css/main.3571d98e.chunk.css",
+    "static/js/main.5082cead.chunk.js"
+  ]
+}
