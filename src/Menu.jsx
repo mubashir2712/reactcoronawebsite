@@ -6,11 +6,11 @@ const Menu = () => {
     return(
         <>
         <div style={{textAlign:"center"}}>
-        <Link to = "/TotalConfirmedCases"> TotalConfirmedCases </Link>
+        <Link to = "/reactcoronawebsite/TotalConfirmedCases"> TotalConfirmedCases </Link>
         <br></br>
-        <Link to = "/TotalVaccinated"> TotalVaccinated </Link>
+        <Link to = "/reactcoronawebsite/TotalVaccinated"> TotalVaccinated </Link>
         <br></br>
-        <Link to = "/CasesTimeSeries"> CasesTimeSeries </Link>
+        <Link to = "/reactcoronawebsite/CasesTimeSeries"> CasesTimeSeries </Link>
         </div>
         </>
     )

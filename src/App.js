@@ -14,10 +14,10 @@ function App() {
         <h1 > Corona Virus Cases in India</h1>
       </div>
       <Switch>
-        <Route exact path="/" component = {Menu} style = {{text : 'center'}}/>
-        <Route exact path="/TotalConfirmedCases" component = {TotalConfirmedCases} />
-        <Route exact path="/TotalVaccinated" component = {TotalVaccinated} />
-        <Route exact path="/CasesTimeSeries" component = {CasesTimeSeries} />
+        <Route exact path="/reactcoronawebsite" component = {Menu} style = {{text : 'center'}}/>
+        <Route exact path="/reactcoronawebsite/TotalConfirmedCases" component = {TotalConfirmedCases} />
+        <Route exact path="/reactcoronawebsite/TotalVaccinated" component = {TotalVaccinated} />
+        <Route exact path="/reactcoronawebsite/CasesTimeSeries" component = {CasesTimeSeries} />
       </Switch>
 
       <div className="backgroundColor" style = {{marginBottom : "0px"}}>
